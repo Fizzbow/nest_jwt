@@ -15,7 +15,7 @@ export class PrismaService
       },
     });
   }
-  async OnModuleInit() {
+  async onModuleInit() {
     await this.$connect();
   }
   async onModuleDestroy() {
